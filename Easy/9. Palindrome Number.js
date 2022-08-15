@@ -23,3 +23,5 @@ let isPalindrome2 = function (x) {
   const rVal = parseInt(reverse);
   return x === rVal;
 };
+
+// link :- https://leetcode.com/problems/palindrome-number/
