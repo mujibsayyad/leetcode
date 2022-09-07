@@ -1,3 +1,5 @@
+// 1
+
 let firstMissingPositive = function (nums) {
   for (let i = 0; i < nums.length; i++) {
     let idx = nums[i] - 1;
@@ -22,6 +24,8 @@ let firstMissingPositive = function (nums) {
   // T.C: O(n)
   // S.C: O(1)
 };
+
+// 2
 
 let firstMissingPositivee = function (nums) {
   let map = new Map();
