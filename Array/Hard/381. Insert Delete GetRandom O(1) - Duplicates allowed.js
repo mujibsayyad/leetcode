@@ -59,8 +59,4 @@ RandomizedCollection.prototype.getRandom = function () {
   return this.arr[Math.floor(Math.random() * this.arr.length)];
 };
 
-RandomizedCollection.prototype.swap = function (i, j) {
-  [this.arr[i], this.arr[j]] = [this.arr[j], this.arr[i]];
-};
-
 // link :- https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
