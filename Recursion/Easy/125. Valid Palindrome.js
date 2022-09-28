@@ -18,7 +18,7 @@ let isPalindrome = function (s) {
 };
 
 // Recursive
-var isPalindromee = function (s) {
+const isPalindromee = function (s) {
   s = s
     .toLowerCase()
     .trim()
