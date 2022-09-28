@@ -1,5 +1,4 @@
 // Iterative
-
 let isPalindrome = function (s) {
   s = s
     .toLowerCase()
@@ -16,9 +15,29 @@ let isPalindrome = function (s) {
     end--;
   }
   return true;
-
-  // T.C: O(N)
-  // S.C: O(N)
 };
+
+// Recursive
+var isPalindromee = function (s) {
+  s = s
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-zA-Z0-9]/g, '');
+
+  console.log(s);
+
+  return isPalindromeRecursion(s, 0, s.length - 1);
+};
+
+const isPalindromeRecursion = (s, left, right) => {
+  if (left >= right) return true;
+
+  if (s[left] !== s[right]) return false;
+
+  return isPalindromeRecursion(s, left + 1, right - 1);
+};
+
+// T.C: O(N)
+// S.C: O(N)
 
 // link :- https://leetcode.com/problems/valid-palindrome/
