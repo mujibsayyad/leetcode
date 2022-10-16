@@ -11,4 +11,4 @@ let invertTree = function (root) {
   // S.C : O(n)
 };
 
-// link :- https://leetcode.com/problems/binary-tree-inorder-traversal/
+// link :- https://leetcode.com/problems/invert-binary-tree/
