@@ -22,4 +22,4 @@ let countWords = function (words1, words2) {
   // S.C : O(n)
 };
 
-// link :- https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+// link :- https://leetcode.com/problems/count-common-words-with-one-occurrence/
