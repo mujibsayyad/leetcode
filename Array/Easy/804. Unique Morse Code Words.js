@@ -1,8 +1,32 @@
 let uniqueMorseRepresentations = function (words) {
-    
-  let morseCode = [".-","-...","-.-.","-..",".","..-.","--.",
-  "....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",
-  ".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
+  let morseCode = [
+    '.-',
+    '-...',
+    '-.-.',
+    '-..',
+    '.',
+    '..-.',
+    '--.',
+    '....',
+    '..',
+    '.---',
+    '-.-',
+    '.-..',
+    '--',
+    '-.',
+    '---',
+    '.--.',
+    '--.-',
+    '.-.',
+    '...',
+    '-',
+    '..-',
+    '...-',
+    '.--',
+    '-..-',
+    '-.--',
+    '--..',
+  ];
 
   let map = new Map();
 
@@ -17,4 +41,9 @@ let uniqueMorseRepresentations = function (words) {
   }
 
   return map.size;
+
+  // T.C : O(n^2)
+  // S.C : O(n)
 };
+
+// link :- https://leetcode.com/problems/unique-morse-code-words/
