@@ -15,4 +15,4 @@ let maxProduct = function (nums) {
 // T.C : O(n)
 // S.C : O(1)
 
-// link :- https://leetcode.com/problems/reverse-linked-list/
+// link :- https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
