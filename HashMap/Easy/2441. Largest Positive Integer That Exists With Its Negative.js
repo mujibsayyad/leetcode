@@ -7,7 +7,7 @@ let findMaxK = function (nums) {
   }
 
   for (let val of nums) {
-    if ((map.has(val) && map.has(-val)) || (map.has(-val) && map.has(val))) {
+    if ((map.has(val) && map.has(-val))) {
       arr.push(val);
     }
   }
