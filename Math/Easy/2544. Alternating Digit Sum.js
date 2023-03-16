@@ -1,6 +1,6 @@
 let alternateDigitSum = function (n) {
   let total = 0;
-  let string = n.toString().split('');
+  let string = n.toString();
 
   for (let i = 0; i < string.length; i++) {
     if (i % 2 === 0) {
